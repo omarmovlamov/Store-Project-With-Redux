@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background-color: #d1dfbb;
+}
+
+nav .main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #87575c;
+  color: #f0ebe5;
+  padding: 15px;
+}
+.navDiv {
+  position: relative;
+}
+.itemsIcon {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+.itemsdiv {
+  background-color: white;
+  color: black;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+section {
+  text-align: center;
+}
+img {
+  border-radius: 30px;
+  box-shadow: 6px 5px 5px #3a2426;
+}
+section h2 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 1px 1px 1px gray;
+}
+.cartDeletebtn {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #87575c;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 2px 5px #3a2426;
+}
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.cartInfo {
+  margin-top: 15%;
+  text-align: right;
+}
+.cartInfo h4 {
+  margin-bottom: 15px;
+}
+.btnsDiv button,
+.btnsDiv p {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.btnsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.btnsDiv button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.deleteItem {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #87575c;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 3px 2px 5px #3a2426;
+}
