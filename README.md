@@ -1,7 +1,7 @@
 # Project Description
 This project was built with redux. Using a simple redux store structure, you can purchase, delete, or increase or decrease the number of courses on the screen.
 <hr/>
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
